@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { SideMenuComponent } from './side-menu/side-menu.component';
 
 const routes: Routes = [];
 
