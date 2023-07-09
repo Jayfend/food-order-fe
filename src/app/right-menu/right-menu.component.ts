@@ -10,4 +10,7 @@ export class RightMenuComponent {
   netImage3:any ="./assets/images/Setting 2.png";
   netImage2:any ="./assets/images/notification.png";
   netImage4:any ="./assets/images/placeholder.png";
+  netImage5:any="./assets/images/Income.png";
+  netImage6:any="./assets/images/Profit.png";
+  
 }

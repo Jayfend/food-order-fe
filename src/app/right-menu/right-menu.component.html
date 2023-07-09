@@ -1,16 +1,37 @@
-<nav
-  class="sidebar fixed top-0 bottom-0 lg:right-0 p-2 w-[455px] h-[1626px] z-[10px] overflow-y-auto text-center bg-white-50"
->
-  <div class="inline-flex float-left ml-[50px] mt-[24px]">
-      <a class="m-2.5" href="#">
+<nav class="sidebar fixed top-0 bottom-0 lg:right-0 p-2 w-[455px] h-[1626px] z-[10px] overflow-y-auto text-center bg-white-50">
+  <div class="flex justify-between mt-[56px] h-[60px]">
+    <div class="inline-flex  ml-[50px] float-left">
+      <a class="mt-2.5 w-[60px] h-[60px]" href="#">
+        <div class="w-[8px] h-[8px] rounded-full bg-yellow-50 float-right mt-[2px]"></div>
         <img [src]="netImage1" />
       </a>
-      <a class="m-2.5" href="#">
+      <a class="mt-2.5 w-[60px] h-[60px]" href="#">
+        <div class="w-[8px] h-[8px] rounded-full bg-yellow-50 float-right mt-[2px]"></div>
         <img [src]="netImage2" />
       </a>
-      <a class="m-2.5" href="#">
+      <a class="mt-2.5 w-[60px] h-[60px] " href="#">
         <img [src]="netImage3" />
       </a>
     </div>
-
+    <div class="float-right w-[60px] h-[60px] mb-[10px] mr-[40px]">
+      <a href="#">
+        <img [src]="netImage4" />
+      </a>
+    </div>
+  </div>
+  <div class="font-poppins text-black-51 font-bold text-[24px] float-left ml-[50px] mt-[42px]">Your Balance</div>
+  <div class="w-[375px] h-[165px] bg-yellow-50 mt-[102px] rounded-2xl flex overflow-hidden relative">
+    <div class="w-[240px] h-[240px] opacity-50 bg-rose-50 rounded-full float-left top-[-59px] left-[-112px] absolute"></div>
+    <div class="w-[240px] h-[240px] opacity-50 rounded-full float-left bg-green-50 bottom-[-146px] right-[143] left[-8px] absolute "></div>
+    <div class="w-40 h-[101px] p-4 bg-white-50 rounded-2xl flex-col justify-start items-start inline-flex z-10 absolute top-[32px] right-[183px] left-[32px] bottom-[32px]">
+      <div class="text-zinc-800 text-[14px] font-normal">Balance</div>
+      <div class="text-zinc-800 text-[32px] font-bold">$12.000</div>
+    </div>
+    <div class="top-[32px] right-[160px] left-[192px] inline-flex relative ">
+      <div class="w-14 h-14 bg-white-50 rounded-2xl z-10 aboslute content-center"><img [src]="netImage5"></div>
+      <div class="w-14 h-14 bg-white-50 rounded-2xl z-10 absolute content-center"><img [src]="netImage6"></div>
+    </div>
+   
+  </div>
+ 
 </nav>
