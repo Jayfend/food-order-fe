@@ -16,7 +16,7 @@ module.exports = {
     'gray':{
       51:'#A098AE'
     },
-    black:{
+    'black':{
       51:'#2E2E2E'
     }
   },
@@ -48,8 +48,16 @@ backgroundColor:{
   'green':{
     50:'#A6C44A'
   }
+},
+borderColor:{
+  'yellow':{
+    50:'#F8B602'
+  },
+  'gray':{
+    50:'#DBDBDB',
+    51:'#A098AE'
+  }
 }
   },
   plugins: [],
 }
-

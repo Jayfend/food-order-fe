@@ -1,37 +1,146 @@
-<nav class="sidebar fixed top-0 bottom-0 lg:right-0 p-2 w-[455px] h-[1626px] z-[10px] overflow-y-auto text-center bg-white-50">
-  <div class="flex justify-between mt-[56px] h-[60px]">
-    <div class="inline-flex  ml-[50px] float-left">
-      <a class="mt-2.5 w-[60px] h-[60px]" href="#">
-        <div class="w-[8px] h-[8px] rounded-full bg-yellow-50 float-right mt-[2px]"></div>
+<nav
+  class="sidebar fixed top-0 bottom-0 lg:right-0 p-2 w-[455px] h-[1626px] z-[10px] overflow-y-auto text-center bg-white-50"
+>
+  <div class="flex justify-between mt-[56px] h-[60px] w-[375px] ml-[40px]">
+    <div class="inline-flex left-[40px] float-left">
+      <a class="mt-2.5 w-[40px] h-[40px] relative" href="#">
+        <div
+          class="w-[8px] h-[8px] rounded-full bg-yellow-50 float-right mt-[2px] absolute top-0 right-0"
+        ></div>
         <img [src]="netImage1" />
       </a>
-      <a class="mt-2.5 w-[60px] h-[60px]" href="#">
-        <div class="w-[8px] h-[8px] rounded-full bg-yellow-50 float-right mt-[2px]"></div>
+      <a class="mt-2.5 w-[40px] h-[40px] ml-[20px] relative" href="#">
+        <div
+          class="w-[8px] h-[8px] rounded-full bg-yellow-50 float-right mt-[2px] absolute top-0 right-0"
+        ></div>
         <img [src]="netImage2" />
       </a>
-      <a class="mt-2.5 w-[60px] h-[60px] " href="#">
+      <a class="mt-2.5 w-[60px] h-[60px] ml-[20px]" href="#">
         <img [src]="netImage3" />
       </a>
     </div>
-    <div class="float-right w-[60px] h-[60px] mb-[10px] mr-[40px]">
+    <div class="float-right w-[60px] h-[60px] mb-[10px]">
       <a href="#">
         <img [src]="netImage4" />
       </a>
     </div>
   </div>
-  <div class="font-poppins text-black-51 font-bold text-[24px] float-left ml-[50px] mt-[42px]">Your Balance</div>
-  <div class="w-[375px] h-[165px] bg-yellow-50 mt-[102px] rounded-2xl flex overflow-hidden relative">
-    <div class="w-[240px] h-[240px] opacity-50 bg-rose-50 rounded-full float-left top-[-59px] left-[-112px] absolute"></div>
-    <div class="w-[240px] h-[240px] opacity-50 rounded-full float-left bg-green-50 bottom-[-146px] right-[143] left[-8px] absolute "></div>
-    <div class="w-40 h-[101px] p-4 bg-white-50 rounded-2xl flex-col justify-start items-start inline-flex z-10 absolute top-[32px] right-[183px] left-[32px] bottom-[32px]">
+  <div
+    class="font-poppins text-black-51 font-bold text-[24px] float-left ml-[50px] mt-[42px]"
+  >
+    Your Balance
+  </div>
+  <div
+    class="w-[375px] h-[165px] bg-yellow-50 mt-[102px] rounded-2xl flex overflow-hidden relative ml-[40px] mr-[40px]"
+  >
+    <div
+      class="w-[240px] h-[240px] opacity-50 bg-rose-50 rounded-full float-left top-[-59px] left-[-112px] absolute"
+    ></div>
+    <div
+      class="w-[240px] h-[240px] opacity-50 rounded-full float-left bg-green-50 bottom-[-146px] right-[143] left[-8px] absolute"
+    ></div>
+    <div
+      class="w-40 h-[101px] p-4 bg-white-50 rounded-2xl flex-col justify-start items-start inline-flex z-10 absolute top-[32px] right-[183px] left-[32px] bottom-[32px]"
+    >
       <div class="text-zinc-800 text-[14px] font-normal">Balance</div>
       <div class="text-zinc-800 text-[32px] font-bold">$12.000</div>
     </div>
-    <div class="top-[32px] right-[160px] left-[192px] inline-flex relative ">
-      <div class="w-14 h-14 bg-white-50 rounded-2xl z-10 aboslute content-center"><img [src]="netImage5"></div>
-      <div class="w-14 h-14 bg-white-50 rounded-2xl z-10 absolute content-center"><img [src]="netImage6"></div>
+    <div
+      class="top-[32px] right-[32px] left-[215px] inline-flex absolute justify-between"
+    >
+      <div
+        class="w-14 h-14 bg-white-50 rounded-2xl z-10 content-center relative"
+      >
+        <img class="absolute inset-[12px]" [src]="netImage5" />
+      </div>
+      <div
+        class="w-14 h-14 bg-white-50 rounded-2xl z-10 content-center relative"
+      >
+        <img class="absolute inset-[12px]" [src]="netImage6" />
+      </div>
     </div>
-   
+    <div
+      class="top-[106px] right-[32px] left-[215px] bottom-[40px] inline-flex absolute justify-between"
+    >
+      <div class="text-white-50 text-[14px] w-14 h-14 font-normal">Top Up</div>
+      <div class="text-white-50 text-[14px] w-14 h-14 font-normal">Top Up</div>
+    </div>
   </div>
- 
+  <div
+    class="w-[375px] h-[200px] mt-[24px] flex overflow-hidden relative ml-[40px] mr-[40px]"
+  >
+    <div
+      class="text-gray-51 text-[18px] w-[119px] h-[27px] font-normal text-left"
+    >
+      Your Address
+    </div>
+    <div
+      class="inline-flex justify-between top-[35px] w-[375px] absolute float-left items-center"
+    >
+      <div class="inline-flex">
+        <img [src]="netImage7" />
+        <div
+          class="text-black-51 text-[18px] ml-[8px] font-bold w-[124px] h-[27px]"
+        >
+          Elm Street, 23
+        </div>
+      </div>
+      <div
+        class="w-[95px] h-[32px] rounded-lg border border border border border-yellow-50 relative"
+      >
+        <div
+          class="text-yellow-50 text-[14px] w-[57px] h-[21px] font-normal absolute top-[4px] bottom-[5px] right-[19px] left-[17px]"
+        >
+          Change
+        </div>
+      </div>
+      <div
+        class="w-[375px] h-[48px] text-gray-51 text-[14px] font-normal leading-normal absolute top-[43px] text-left"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt.
+      </div>
+      <div class="w-[375px] h-[48px] absolute top-[107px] flex justify-start">
+        <div
+          class="w-[120px] h-8 rounded-lg border border border border border-gray-51 relative"
+        >
+          <div
+            class="text-black-51 text-[14px] font-normal text-center leading-normal absolute top-[4px] bottom-[5px] right-[19px] left-[17px]"
+          >
+            Add Details
+          </div>
+        </div>
+        <div
+          class="w-[100px] h-8 rounded-lg border border border border border-gray-51 ml-[16px] relative"
+        >
+          <div
+            class="text-black-51 text-[14px] font-normal absolute top-[4px] bottom-[5px] right-[19px] left-[17px]"
+          >
+            Add Note
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-black-51 text-[24px] font-bold float-left left-[40px] relative">
+    Order Menu
+  </div>
+  <ul class="absolute top-[663px] w-[375px] left-[40px] right-[40px] mt-[24px]">
+    <li>
+        <div class="inline-flex float-left justify-between">
+            <img [src]="netImage8">
+            <div class="ml-[16px]">
+                <div class="text-black-51 text-[18px] font-semibold">Pepperoni Pizza</div>
+                <div class="text-black-51 text-[14px] font-normal text-left">x1</div>
+                
+            </div>
+            <div class="ml-[76px] w-[64] h-[27px] float-right right-[40px] top-[15px] absolute">
+                <span class="text-black-51 text-[18px] font-poppins font-bold">+</span>
+                <span class="text-yellow-50 text-[18px] font-poppins font-bold">$</span>
+                <span class="text-black-51 text-[18px] font-poppins font-bold">5.59</span>
+            </div>
+        </div>
+    </li>
+  </ul>
+
 </nav>
