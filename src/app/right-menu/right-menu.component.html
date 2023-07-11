@@ -1,5 +1,5 @@
 <nav
-  class="sidebar fixed top-0 bottom-0 lg:right-0 p-2 w-[455px] h-[1626px] z-[10px] overflow-y-auto text-center bg-white-50"
+  class="sidebar fixed top-0 bottom-0 lg:right-0 p-2 w-[455px] h-[1626px] z-[10px] text-center bg-white-50 overflow-y-scroll max-h-[968px] max-w-[455px]"
 >
   <div class="flex justify-between mt-[56px] h-[60px] w-[375px] ml-[40px]">
     <div class="inline-flex left-[40px] float-left">
@@ -125,16 +125,46 @@
   <div class="text-black-51 text-[24px] font-bold float-left left-[40px] relative">
     Order Menu
   </div>
-  <ul class="absolute top-[663px] w-[375px] left-[40px] right-[40px] mt-[24px]">
-    <li>
+  <ul class="absolute top-[650px] w-[375px] left-[40px] right-[40px] mt-[24px]">
+    <li class="mb-[15px] w-[375px] h-[80px] relative">
         <div class="inline-flex float-left justify-between">
             <img [src]="netImage8">
-            <div class="ml-[16px]">
+            <div class="ml-[16px] mt-[14px]">
                 <div class="text-black-51 text-[18px] font-semibold">Pepperoni Pizza</div>
                 <div class="text-black-51 text-[14px] font-normal text-left">x1</div>
                 
             </div>
-            <div class="ml-[76px] w-[64] h-[27px] float-right right-[40px] top-[15px] absolute">
+            <div class="ml-[76px] w-[64] h-[27px] right-0 top-[15px] absolute">
+                <span class="text-black-51 text-[18px] font-poppins font-bold">+</span>
+                <span class="text-yellow-50 text-[18px] font-poppins font-bold">$</span>
+                <span class="text-black-51 text-[18px] font-poppins font-bold">5.59</span>
+            </div>
+        </div>
+    </li>
+    <li class="mb-[15px]  w-[375px] h-[80px] relative">
+        <div class="inline-flex float-left justify-between">
+            <img [src]="netImage9">
+            <div class="ml-[16px] mt-[14px]">
+                <div class="text-black-51 text-[18px] font-semibold">Cheese Burger</div>
+                <div class="text-black-51 text-[14px] font-normal text-left">x1</div>
+                
+            </div>
+            <div class="ml-[76px] mr-0 w-[64] h-[27px] right-0 top-[15px] absolute text-right">
+                <span class="text-black-51 text-[18px] font-poppins font-bold">+</span>
+                <span class="text-yellow-50 text-[18px] font-poppins font-bold">$</span>
+                <span class="text-black-51 text-[18px] font-poppins font-bold">5.59</span>
+            </div>
+        </div>
+    </li>
+    <li class="mb-[15px] w-[375px] h-[80px] relative">
+        <div class="inline-flex float-left justify-between">
+            <img [src]="netImage10">
+            <div class="ml-[16px] mt-[14px]">
+                <div class="text-black-51 text-[18px] font-semibold">Vegan Pizza</div>
+                <div class="text-black-51 text-[14px] font-normal text-left">x1</div>
+                
+            </div>
+            <div class="ml-[76px] w-[64] h-[27px] right-0 top-[15px] absolute">
                 <span class="text-black-51 text-[18px] font-poppins font-bold">+</span>
                 <span class="text-yellow-50 text-[18px] font-poppins font-bold">$</span>
                 <span class="text-black-51 text-[18px] font-poppins font-bold">5.59</span>
@@ -142,5 +172,29 @@
         </div>
     </li>
   </ul>
+
+
+  <div class="w-[375px] h-[0px] border border-gray-50 absolute top-[1007px] left-[40px] right-[40px]"></div>
+  <div class="w-[375px] left-[40px] right-[40px] top-[1042px] flex justify-between absolute">
+    <div class="text-gray-51 text-[14px] font-medium">Service</div>
+    <div><span class="text-black-51 text-[18px] font-medium">+</span><span class="text-yellow-50 text-[18px] font-medium">$</span><span class="text-black-51 text-[18px] font-medium">1.00</span></div>
+  </div>
+  <div class="w-[375px] left-[40px] right-[40px] top-[1095px] flex justify-between absolute">
+    <div class="text-zinc-800 text-[18px] font-medium">Total</div>
+    <div><span class="text-yellow-50 text-[24px] font-medium">$</span><span class="text-black-51 text-[24px] font-medium">202.00</span></div>
+  </div>
+  <div class="w-[375px] left-[40px] right-[40px] h-[64px] bg-gray-52 rounded-2xl border border border border border-yellow-50 backdrop-blur-lg justify-center items-center gap-6 inline-flex absolute top-[1166px] ">
+    <div class="w-10 h-10 relative">
+      <div class="w-10 h-10 left-0 top-0 absolute bg-yellow-50 rounded-xl"></div>
+      <img class="w-8 h-8 left-[4px] top-[4px] absolute" [src]="netImage11">
+    </div>
+    <div class="text-black-51 text-[14px] font-medium">Have a coupon code?</div>
+    <img class="w-8 h-8 relative origin-top-left fill-black-51" [src]="netImage12">
+  </div>
+  <div class="w-[373px] h-16 p-4 bg-yellow-50 rounded-2xl justify-center items-center gap-2.5 inline-flex absolute top-[1262px] left-[40px] right-[40px] ">
+    <div class="text-white-50 text-[18px] font-medium">Checkout</div>
+  </div>
+
+
 
 </nav>

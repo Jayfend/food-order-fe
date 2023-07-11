@@ -26,7 +26,7 @@ module.exports = {
     },
   colors:{
   'black':{
-    50:'#2E2E2E'
+    51:'#2E2E2E'
   },
   'yellow':{
     50:'#F8B602'
@@ -34,7 +34,8 @@ module.exports = {
 },
 backgroundColor:{
   'gray':{
-    50:'#DBDBDB'
+    50:'#DBDBDB',
+    52:'#F5F5F5'
   },
   'white':{
     50:'#FFFFFF'
@@ -57,7 +58,12 @@ borderColor:{
     50:'#DBDBDB',
     51:'#A098AE'
   }
-}
+},
+ fill:{
+  'black':{
+    51:'#2E2E2E'
+  }
+ }
   },
   plugins: [],
 }

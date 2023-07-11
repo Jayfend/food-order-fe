@@ -14,5 +14,8 @@ export class RightMenuComponent {
   netImage6:any="./assets/images/Profit.png";
   netImage7:any="./assets/images/Location.png";
   netImage8:any="./assets/images/Pizza.png"
-  
+  netImage9:any="./assets/images/Burger.png"
+  netImage10:any="./assets/images/FreshlyPizza.png"
+  netImage11:any="./assets/images/Coupon.png"
+  netImage12:any="./assets/images/RightArrow.png"
 }
